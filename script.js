@@ -1,6 +1,6 @@
 const $ = el => document.querySelector(el);
 const $hero = $('.hero');
-const TOTAL_FRAMES = 25;
+const TOTAL_FRAMES = 24;
 
 function generateSrc(nFrame) {
   return `./assets/frames/john-${nFrame}.webp`;
