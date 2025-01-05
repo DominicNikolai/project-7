@@ -1,9 +1,9 @@
 const $ = el => document.querySelector(el);
 const $hero = $('.hero');
-const TOTAL_FRAMES = 150;
+const TOTAL_FRAMES = 25;
 
 function generateSrc(nFrame) {
-  return `./assets/frames/moto-${nFrame}.webp`;
+  return `./assets/frames/john-${nFrame}.webp`;
 }
 
 function updateImage(nFrame) {
